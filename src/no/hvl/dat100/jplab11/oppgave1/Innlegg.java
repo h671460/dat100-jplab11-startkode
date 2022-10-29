@@ -93,9 +93,11 @@ public abstract class Innlegg {
 	}
 	
 	// Metoden nedenfor er kun for valgfri oppgave 6
+	
+	
 	public String toHTML() {
 		
-String htmlinlegg = id + "\n" + "<h2>"+bruker + "@" + dato + "<h2>" +"\n" + likes + "\n";
+String htmlinlegg = id + "\n" + "<h2>"+bruker + "@" + dato + "</h2>" +"\n" + likes + "\n";
 		
 		return htmlinlegg;
 		

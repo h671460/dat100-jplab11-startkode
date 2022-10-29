@@ -46,9 +46,10 @@ public class Tekst extends Innlegg {
 	}
 
 	// Metoden nedenfor er kun for valgfri oppgave 6
+	@Override
 	public String toHTML() {
 
-		String str = "TEKST\n" + super.toString() + "<p>" + tekst + "<p>" + "\n" + "<hr>";
+		String str = "TEKST\n" + super.toString() + "<p>" + tekst + "</p>" + "\n" + "<hr>";
 
 		return str;
 

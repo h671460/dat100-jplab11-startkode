@@ -18,7 +18,7 @@ public class HtmlBlogg extends Blogg {
 	
 	@Override
 	public String toString() {
-		String htmlString = HTMLPREFIX + super.toString() + HTMLPOSTFIX;
+		String htmlString = HTMLPREFIX + super.toHTML() + HTMLPOSTFIX;
 		
 		return htmlString;
 		// 

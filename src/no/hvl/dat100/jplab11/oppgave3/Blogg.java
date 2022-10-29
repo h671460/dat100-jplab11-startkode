@@ -89,6 +89,20 @@ public class Blogg {
 		return taut;
 
 	}
+	
+	
+	public String toHTML() {
+
+		String taut = "";
+
+		for (int i = 0; i < nesteledig; i++) {
+
+			taut += innleggtabell[i].toHTML();
+
+		}
+		return taut;
+
+	}
 
 	// valgfrie oppgaver nedenfor
 

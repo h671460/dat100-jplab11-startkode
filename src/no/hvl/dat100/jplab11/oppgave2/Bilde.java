@@ -39,12 +39,12 @@ public class Bilde extends Tekst {
 		return str2;
 
 	}
-
-	// Metoden nedenfor er kun for valgfri oppgave 6
+	@Override
+	
 	public String toHTML() {
 
 String str = "BILDE\n" + super.toString() +
-"<iframe src=" +url+ "height=600 width=800></iframe><hr>";
+"<br/><iframe src=\"" +url+ "\" height=600 width=800></iframe><hr> <br><br>";
 		
 		return str;
 				
